@@ -11,4 +11,9 @@ public class CarServicelmp  implements CarService{
     public List<Car> listCars() {
         return carDaolmp.listCars();
     }
+
+    @Override
+    public List<Car> getCarsCount(int count) {
+        return carDaolmp.getCarsCount(count);
+    }
 }
